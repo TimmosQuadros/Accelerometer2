@@ -1,3 +1,8 @@
+### What is an Accelerometer?
+An accelerometer is a small device that measures acceleration. Some accelerometers only measures the general change in velocity, but typical sensors measures the [proper acceleration](https://en.wikipedia.org/wiki/Proper_acceleration) along three axis: X, Y and Z.
+
+
+
 ### Accelerometers
 Accelerometers are used in bla bla bla...
 
