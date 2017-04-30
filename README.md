@@ -1,5 +1,5 @@
 ### What is an Accelerometer?
-An accelerometer is a small device that measures acceleration force like gravity (a static force) or dynamic like moving or shaking the sensor. Some accelerometers only measures the general change in velocity, but typical sensors measures the [proper acceleration](https://en.wikipedia.org/wiki/Proper_acceleration) along three axis: X, Y and Z.
+An accelerometer is a small device that measures acceleration force like gravity, which is a static force, or a dynamic force like moving or shaking the sensor. Some accelerometers only measures the general change in velocity, but typical sensors measures the [proper acceleration](https://en.wikipedia.org/wiki/Proper_acceleration) along three axis: X, Y and Z.
 
 ![xyz](http://www.werkstattworkshop.com/sites/all/themes/media/projects/acc/xyz.png) 
 
