@@ -5,6 +5,10 @@ A accelerometer is a small device that measures acceleration force like gravity,
 
 ### How does a Accelerometer work?
 
+There are several different ways a accelerometer is built, but one of the more commen (and cheap) ways is using an piezoelectic meter. 
+
+Basically imagine a small box. Inside this box you have a ball. Whenever a movement occurs, the ball well hit on ore more of the walls, creating small piezo electric currents [1](https://diyhacking.com/arduino-mpu-6050-imu-sensor-tutorial/). 
+
 ![acce](https://301o583r8shhildde3s0vcnh-wpengine.netdna-ssl.com/wp-content/uploads/2014/11/acc.png)
 
 ### Accelerometers
