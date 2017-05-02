@@ -16,24 +16,6 @@ Accelerometers are used in many devices that measures speed, acceleration, force
 
 ### How do you use the accelerometers in an app?
 
-First you need a few improts
-```
-import android.hardware.Sensor
-import android.hardware.SensorEvent
-import android.hardware.SensorEventListener
-import android.hardware.SensorManager
-```
-Your kotlin class must take in a few aruments like so:
-```
-class MainActivity(
-    internal var accelerometer: Sensor,
-    internal var sm: SensorManager,
-    internal var acceleration: TextView
-) : AppCompatActivity(), SensorEventListener {
-```
-
-## Accelerometer
-
 In kotlin there are some build in objects/classes that you can use to get acces to all the sensors of the smartphone. These classes are:
 
 1. Sensor
@@ -46,6 +28,14 @@ Also we need to extend from AppCompatActivity() and we need to implement the Sen
 
 3. AppCompatActivity()
 4. SensorEventListener
+Your kotlin class must take in a few aruments like so:
+```
+class MainActivity(
+    internal var accelerometer: Sensor,
+    internal var sm: SensorManager,
+    internal var acceleration: TextView
+) : AppCompatActivity(), SensorEventListener {
+```
 
 ## Sensor
 
